@@ -1,0 +1,261 @@
+* {
+       padding: 0;
+       margin: 0; 
+       box-sizing: border-box; 
+    
+}
+
+  html {
+
+    font-size: 10px;
+  }
+
+  body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #fff;
+}
+
+  a { 
+      
+      text-decoration: none;
+      
+}
+     
+    ul {
+      list-style-type: none;
+    }
+
+    section {
+      padding-top: 10rem;
+      padding-bottom: 10rem;
+      text-align: center;
+    }
+
+   .img-fluid {
+     max-width: 100%;
+     height: auto;
+   }
+
+   .clearfix::after {
+
+    content: "";
+    display: block;
+    clear: both;
+   }
+
+    .container  {
+ 
+     width: 1140px;
+     margin-left: auto;
+     margin-right: auto;
+     padding-left: .5rem;
+     padding-right: .5rem;
+}
+
+         .text-uppercase {
+
+          text-transform: uppercase;
+
+}
+             
+/*navbar*/
+    nav{
+         width: 100%;
+         font-family: 'Montserrat';
+           background-color: #2C3E50;
+           color: #fff;
+           padding-top: 2.4rem;
+           padding-bottom: 2.4rem;
+           position: fixed;
+}
+
+
+  #logo-box {
+    float: left;
+    padding-top: .5rem;
+  }
+     
+   #logo-box  .logo {
+      
+       color: #fff;
+       font-weight: 700;
+       font-size: 3.2rem;
+      
+      }
+
+      #nav-links {
+        float: right;
+      }
+
+      #nav-links li {
+        float: left;
+        margin: .4rem;
+      }
+
+      #nav-links .nav-link {
+                 color: #fff;
+                 font-size: 1.6rem;
+                 font-weight: 700;
+                 display: block;
+                 padding: 1.6rem;
+                 letter-spacing: .1rem; 
+                 transition: color .3s;
+      }
+
+      #nav-links .nav-link:hover{
+        color: #18bc9c;
+      }
+     
+     
+      #anasayfa-image {
+       
+        height: 500px; /* Orantılı olarak yüksekliği ayarla */
+        width: 1700px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+    }
+
+      /*Header */
+
+      header {
+
+         background-color: #18bc9c;
+         height: 800px;
+         padding-top:calc(112px + 10rem);
+         padding-bottom: 112px;
+         text-align: center;
+      }
+      
+
+      /* portfolio */
+
+      #portfolio {
+
+        height: 1000px;
+        
+        background-color:#d4d4d4;
+        text-align: center;
+      }
+
+      #portfolio h2 {
+        font-size: 4.8rem;
+        color: #2C3E50;
+      }
+
+      .col {
+        float: left;
+        width: 33.33333%;
+        padding: 10px;
+   }
+
+
+
+
+
+
+
+      .portfolio-item {
+     
+      }
+
+
+      /*about */
+
+      #About {
+               background-color: #18bc9c;
+               color: #fff;
+               height: 800px;
+
+      }
+      #About h2 {
+
+        font-size: 4.8rem;
+      }
+
+      #about-text {
+             
+          text-align: left;
+      }
+
+      #about-text .left {
+
+        float: left;
+        width: 50%;
+        padding-right: 2rem;
+        padding-left: 20rem;
+
+
+      }
+
+      #about-text .right {
+
+          float: right;
+          width: 50%;
+          padding-left: 2rem;
+          padding-right: 20rem;
+
+      }
+
+      #about-text .text {
+         font-size: 2rem;
+      }
+
+
+
+      /* contact */
+
+      #contact{
+        background-color: #bdbdbd;
+        color: #fff;
+        height: 1100px;
+
+}
+
+
+      #contact h4 {
+
+        font-size: 4.8rem;
+        color: #2C3E50;
+
+      }
+
+      #contact-form {
+              
+        width: 70%
+        margin: 0 auto;
+       
+
+      }
+
+
+      .form-group {
+        border-bottom: 1px solid
+        #e9ecef;
+        padding-bottom: 1rem;
+        margin-bottom: 4rem; 
+        text-align: left;     
+      
+      }
+
+
+      .form-group input, .form-group textarea{
+        border: none;
+        width: 100%;
+        display: block;
+        font-size: 2.4rem;
+      }
+     
+         
+        .form-group input:focus {
+
+          outline: 0;
+        }
+
+      .btn-primary {
+        background-color: #18bc9c;
+        border-color: #18bc9c;
+        color: #fff;
+        padding: 1.2rem 1rem;
+      }
